@@ -1,7 +1,7 @@
 package com.bridgelabz.flightscheduling;
 import java.util.ArrayList;
 
-class FlightManager<T extends Number> {
+class FlightManager<T> {
     private ArrayList<Flight<T>> flights = new ArrayList<>();
 
     public void addFlight(Flight<T> flight) {
