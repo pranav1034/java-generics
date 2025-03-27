@@ -24,7 +24,7 @@ public class Main {
         //discounted prices
         System.out.println("\nApplying discounted prices:");
         DiscountManager.applyDiscount(book, 10);
-        DiscountManager.applyDiscount(shirt, 20);
+        DiscountManager.applyDiscount(shirt, 30);
         DiscountManager.applyDiscount(smartphone, 5);
 
         //Displaying the discounted details
